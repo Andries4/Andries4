@@ -1,0 +1,236 @@
+/*de body*/
+body {
+  background-color: #b9b6b9;
+}
+
+/* de header  */
+.header {
+    overflow: hidden;
+    background-color: #6c6d6d;
+    color: #FCDB67;
+    padding: 0px 20px;
+    font-size: 13px;
+  }
+
+  /* de header links */
+  .header a {
+    float: left;
+    color: gainsboro;
+    text-align: left;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 35px;
+    border-radius: 10px;
+  }
+  
+  /* Style the active/current link*/
+.header a.active {
+  background-color: #E8E5C3;
+  color: black;
+}
+  
+  /* kleur wanneer muis over  */
+  .header a:hover {
+    background-color: gray;
+    color: #FCDB67;
+  }
+  
+  /* float de nav bar rechts */
+  .navbar {
+    float: right;
+  }
+  
+/* einde header ---------------------------------------------------------------*/
+
+/* front page */
+.front {
+  color: #1f1f1e;
+}
+
+/*front tekst*/
+.front-text {
+  color: black;
+  font-size: 22px;
+  margin-top: 180px;
+  margin-left: 60px;
+}
+
+/*hoofd foto*/
+.img0 {
+  width: 40%;
+  height: 40%;
+  margin-top: 70px;
+  margin-right: 70px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+}
+
+/*einde front ------------------------------------------------------------*/
+
+/*over ons gedeelte*/
+.over-ons {
+  margin-top: 700px;
+  padding: 100px;
+  
+}
+
+/*de 3 afbeelingen bij elkaar*/
+.imgs {
+  width: 600px;
+  height: 600px;
+  
+}
+
+/*afbeelding 1 wordpress*/
+.img1 {
+  position: relative;
+  top: 0px;
+  right: 10px;
+  width: 45%;
+  height: 45%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+}
+ 
+/*afbeelding 2 visual studio code en animatie*/
+.img2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  width: 28%;
+  height: 28%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+
+  animation-name: vsc;
+  animation-duration: 2s;
+}
+/* de animatie gedeelte van het vsc afbeelding */
+@keyframes vsc {
+  0%   { left:-280px; top:0px;}
+  100% { left:20px; top:-20px;}
+  0% {opacity: 0;}
+}
+
+/*afbeelding 3 trello en animatie*/
+.img3 {
+  position: relative;
+  top: -10px;
+  left: 295px;
+  width: 70%;
+  height: 30%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+
+  animation-name: trello;
+  animation-duration: 2s;
+}
+/* de animatie gedeelte van het trello afbeelding */
+@keyframes trello {
+  0%   { left:295px; top:-170px;}
+  100% { left:295px; top:-10px;}
+  0% {opacity: 0;}
+}
+
+/*over ons tekst*/
+.over-ons-text {
+  padding: 50px;
+  padding-left: 70px;
+  margin-top: 60px;
+  margin-left: 150px;
+  color: black;
+  text-align: left;
+  font-size: 30px;
+  width: 32%;
+}
+
+/*einde over-ons --------------------------------------------------------*/
+
+/*compact programs gedeelte*/
+.compact-programs {
+  text-align: center;
+  margin-top: 430px;
+  padding: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+/* het afbeelding in compact programs */
+.compact-img {
+  width:30%; 
+  border: 1px solid black; 
+  text-align: left;
+}
+
+/*het doosje zelf*/
+.box {
+  padding: 35px;
+  background-color: #E8E5C3;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+}
+
+/*clear float after*/
+.box::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*het colom in de doos*/
+.column {
+  text-align: left;
+  float: left;
+  width: 32%;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/*einde compact-progams ------------------------------------------------------*/
+
+/*het stappenplan gedeelte*/
+.stappenplan {
+  background-color: #b9b6b9;
+  padding: 210px;
+  padding-left: 60px;
+  width: 45% ;
+  font-size: 25px;
+  float: left;
+}
+
+/*de stappen zelf*/
+.stappen {
+  float: left;
+  width: 38%;
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 60px;
+  font-size: 10px;
+  text-align: left;
+}
+
+/* alle stap afbeeldingen */
+.stap-imgs { 
+  margin-top: 10px;
+  float: left;
+  width:12%;
+}
+
+/*clear float after*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*de afbeelding naast het stappenplan*/
+.img4 {
+margin-top: 250px;
+margin-right: 160px;
+border: 1px solid black;
+box-shadow: 5px 5px 1px black;
+}
+
+/*einde stappenplan -----------------------------------------------*/

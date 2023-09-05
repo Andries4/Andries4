@@ -1,0 +1,104 @@
+/*de body*/
+body {
+    background-color: #b9b6b9;
+  }
+  
+  /* de header  */
+  .header {
+      overflow: hidden;
+      background-color: #6c6d6d;
+      color: #FCDB67;
+      padding: 0px 20px;
+      font-size: 13px;
+    }
+  
+  
+    /* de header links */
+    .header a {
+      float: left;
+      color: gainsboro;
+      text-align: left;
+      padding: 17px;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 35px;
+      border-radius: 10px;
+    }
+    
+     /* Style the active/current link*/
+.header a.active {
+    background-color: #E8E5C3;
+    color: black;
+  }
+
+    /* kleur wanneer muis over  */
+    .header a:hover {
+      background-color: gray;
+      color: #FCDB67;
+    }
+    
+    /* float de nav bar rechts */
+    .navbar {
+      float: right;
+    }
+    
+  /* einde header ---------------------------------------------------------------*/
+
+/* contact us gedeelte */
+    .contact-us {
+      background-color: #E8E5C3;
+      padding: 120px;
+      font-size: 25px;
+      text-align: center;
+
+  }
+/* de tekst in het contact us gedeelte */
+  .text {
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+  }
+/* het contacten gedeelte */
+.contacten {
+  padding: 200px;
+}
+
+ /*het doosje zelf*/
+ .box2 {
+  padding: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #E8E5C3;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+}
+
+  /*het doosje zelf*/
+.box {
+  margin-top: 20px;
+  padding: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #E8E5C3;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px black;
+  
+}
+
+/*clear float after*/
+.box::after {
+  content: "";
+  clear: both;
+  display: table;
+  font-size: 15px;
+}
+
+/* leden in de doos*/
+.lid {
+float: left;
+width: 80%;
+padding: 100px;
+padding-top: 20px;
+font-size: 20px;
+
+}

@@ -1,0 +1,107 @@
+/*de body*/
+body {
+  background-color: #b9b6b9;
+}
+
+/* de header  */
+.header {
+    overflow: hidden;
+    background-color: #6c6d6d;
+    color: #FCDB67;
+    padding: 0px 20px;
+    font-size: 13px;
+  }
+
+  /* de header links */
+  .header a {
+    float: left;
+    color: gainsboro;
+    text-align: left;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 35px;
+    border-radius: 10px;
+  }
+  
+  /* kleur wanneer muis over  */
+  .header a:hover {
+    background-color: gray;
+    color: #FCDB67;
+  }
+  
+  /* float de nav bar rechts */
+  .navbar {
+    float: right;
+  }
+/* einde header ---------------------------------------------------------------*/
+
+/*onze missie gedeelte met foto*/
+.onze-missie {
+    background-color: #c6c6c6;
+    margin-top: 170px;
+    margin-left: 250px;
+}
+
+/*onze missie tekst naast foto*/
+.onze-missie-text {
+   
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 20px;
+
+}
+/*einde onze-missie -----------------------------------------------------------*/
+
+/*het bedrijfs-leden gedeelte */
+.bedrijfs_leden {
+    text-align: center;
+    margin-top: 400px;
+    padding: 400px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 35px;
+}
+
+/*het doosje zelf*/
+.box {
+    background-color: #E8E5C3;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+}
+
+/*clear float after*/
+.box::after {
+    content: "";
+    clear: both;
+    display: table;
+    font-size: 15px;
+}
+
+/*2 eerste leden in de doos*/
+.lid {
+  float: left;
+  width: 32%;
+  padding: 117px;
+  padding-top: 80px;
+  font-size: 10px;
+}
+
+/*3 onderste leden in de doos*/
+.lid_2 {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 10px;  
+}
+/*einde bedrijfs-leden ----------------------------------------------------*/
+
+/* de footer */
+.footer {
+  padding: 80px;
+  background-color: #E8E5C3;
+}
+

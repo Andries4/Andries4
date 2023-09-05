@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+      <head>
+
+        <link  href="index.css"  rel="stylesheet" >
+        <link  href="imgs" rel="images">
+
+      </head>
+<body>
+<!-- de header -->
+<div class="header">
+
+<h1 style="float: left;">DUMPIT</h1>
+<!-- de navbar in de header -->
+  <div class="navbar">
+<!-- de links in de navbar -->
+      <a class="active" href="http://localhost/QuickICT/dumpIT/home.html" target="_blank" rel="noopener noreferrer">Home</a>
+      <a href="http://localhost/QuickICT/dumpIT/over_ons.html" target="_blank" rel="noopener noreferrer">over ons</a>
+      <a href="http://localhost/QuickICT/dumpIT/stappenplan.html" target="_blank" rel="noopener noreferrer">stappenplan</a>
+      <a href="http://localhost/QuickICT/dumpIT/waarmee-wij-werken.html" target="_blank" rel="noopener noreferrer">waarmee wij werken</a>
+      <a href="http://localhost/QuickICT/dumpIT/contact.html" target="_blank" rel="noopener noreferrer">Contact us</a>
+      
+  </div>
+</div>
+    
+  <!-- het front gedeelte -->
+<div class="front">
+<!-- de afbeelding in het front gedeelte boven aan -->
+  <img class="img0"style="float: right;" src="imgs/front img.png"/>
+  <!-- het front tekst  -->
+ <div class="front-text" style="float: left;">
+
+    <H1 style="font-size: 55px;">DumpIT</H1>
+    <p>Dump het bij ons</p> 
+
+ </div>
+</div>
+ <!-- het over ons gedeelte -->
+<div class="over-ons" >
+  <!-- de 3 afbeelding in het over ons gedeelte -->
+ <div class="imgs" style="float: left;">
+
+  <img class="img1" src="imgs/over-ons1.png" alt="img1" >
+  <img class="img2" src="imgs/over-ons2.png" alt="img2" >
+  <img class="img3" src="imgs/over-ons3.png" alt="img3" >
+ </div>
+<!-- het tekst gedeelte rechts van de 3 afbeeldingen -->
+  <div class="over-ons-text" style="float: left;">
+      
+      <H1>Over ons</H1>
+      <p style="font-size: 10px;">Wij willen u graag helpen met problemen waarmee u vast komt te zitten zoals een design maken of
+         een uitgebreidt project wij staan altijd klaar om u te helpen. </p>
+
+  </div>
+  
+</div>
+<!-- compact programs gedeelte -->
+<div class="compact-programs">
+  <h3>Compact programs</h3>
+
+<!-- de doos in compact programs -->
+  <div class="box">
+<!-- een van de 3 kollommen in de doos -->
+    <div class="column">
+      <img class="compact-img" src="imgs/compact-programs.png" alt="wordpress">
+      <h1>Wordpress</h1>
+      <p style="font-size: 20px;">Site</p>
+      <p>Wij bouwen onze meeste websites met wordpress.</p>
+    </div>
+<!-- een van de 3 kollommen in de doos -->
+    <div class="column">
+      <img class="compact-img" src="imgs/compact-progams2.png" alt="trello">
+      <h1>Trello</h1>
+      <p style="font-size: 20px;">Prikbord</p>
+      <p>Met trello kunnen onze projecten goed verdelen en plannen.</p>
+    </div>
+<!-- een van de 3 kollommen in de doos -->
+    <div class="column">
+      <img class="compact-img" src="imgs/compact-progams2.png" alt="visual studio code">
+    </div>
+
+  </div>
+</div>
+<!-- de afbeelding naast het stappenplan gedeelte -->
+<img class="img4"style="float: right;" src="imgs/stappenplan foto.png"/>
+
+<!-- het stappenplan gedeelte -->
+<div class="stappenplan" >
+    <h1>Stappenplan</h1>
+
+<!-- row betekend een break tussen de 4 stappen -->
+<!-- een van de 4 stappen  -->
+  <div class="row">
+    <div class="stappen">
+      <img class="stap-imgs" src="imgs/pictogram.png" alt="stap" >
+      <h1 style="float: left;">Stap 1</h1>
+      <p style="float: right; margin-left: 25px;">We bespreken het product eerst met de klant. 
+        We overleggen het product met de team.</p>
+      </div>
+<!-- een van de 4 stappen  -->
+    <div class="stappen">
+      <img class="stap-imgs" src="imgs/pictogram.png" alt="stap"  >
+      <h1 style="float: left;" >Stap 2</h1>
+      <p style="float: right; margin-left: 25px;">We beginnen met een prototypen maken. 
+        Daarmee checken we of de klant er tevreden mee is.</p>
+    </div>
+  </div>
+<!-- een van de 4 stappen  -->
+  <div class="row"> 
+    <div class="stappen">
+      <img class="stap-imgs" src="imgs/pictogram.png" alt="stap"  >
+      <h1 style="float: left;">Stap 3</h1>
+      <p style="float: right; margin-left: 25px;">Als het product klaar is dubbelchecken we. 
+        We kijken dan of het product werkt en overheen komt.</p>
+    </div>
+<!-- een van de 4 stappen  -->
+    <div class="stappen">
+      <img class="stap-imgs" src="imgs/pictogram.png" alt="stap"  >
+      <h1 style="float: left;">Slap 4</h1>
+      <p style="float: right; margin-left: 25px;" >Als de klant niet tevreden is met het eindproduct 
+        volgen we het hele stappenplan opnieuw.</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+      <?php
+
+use App\Kernel;
+
+require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+
+return function (array $context) {
+    return new Kernel($context['APP_ENV'], (bool) $context['APP_DEBUG']);
+}; ?>

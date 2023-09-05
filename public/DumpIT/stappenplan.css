@@ -1,0 +1,127 @@
+/* de body */
+body {
+  background-color: #b9b6b9;
+}
+
+/* de header  */
+.header {
+    overflow: hidden;
+    background-color: #6c6d6d;
+    color: #FCDB67;
+    padding: 0px 20px;
+    font-size: 13px;
+  }
+
+
+  /* de header links */
+  .header a {
+    float: left;
+    color: gainsboro;
+    text-align: left;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 35px;
+    border-radius: 10px;
+  }
+  
+   /* Style the active/current link*/
+.header a.active {
+  background-color: #E8E5C3;
+  color: black;
+}
+
+  /* kleur wanneer muis over  */
+  .header a:hover {
+    background-color: gray;
+    color: #FCDB67;
+  }
+  
+  /* float de nav bar rechts */
+  .navbar {
+    float: right;
+  }
+  
+/* einde header ---------------------------------------------------*/
+
+/*stappenplan front*/
+.stappenplan {
+    background-color: #E8E5C3;
+    padding: 80px;
+    text-align: center;
+    font-size: 35px
+}
+
+/*einde stappenplan front --------------------------------------------*/
+
+/*het stappen gedeelte*/
+.stappen {
+    background-color: #b9b6b9;
+    padding: 200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+/* de afbeelding in stappen */
+.stappen-img {
+  float: right;  
+  width:30%;
+  border: 1px solid black;
+}
+
+  /*het colom in iedere doos*/
+  .stap {
+    width: 55%;
+    padding: 50px;
+    padding-left: 150px;
+    font-size: 15px;
+  }
+  
+/*het eerste doosje*/
+.box1 {
+    background-color: #E8E5C3;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+    padding: 60px;
+  }
+  
+  /*clear float 1 after*/
+  .box1::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  /*het tweede doosje */
+.box2 {
+    background-color: #E8E5C3;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+    margin-top: 50px;
+    padding: 60px;
+  }
+  
+  /*clear float 2 after*/
+  .box2::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+   /*het derde doosje*/
+.box3 {
+    background-color: #E8E5C3;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+    margin-top: 50px;
+    padding: 60px;
+  }
+  
+  /*clear float 3 after*/
+  .box3::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+/*einde stappen ------------------------------------------------------*/
+
